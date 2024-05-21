@@ -3,7 +3,7 @@
 </script>
 
 <nav>
-	<NavLink href="/customers" icon="group" label="Customers" />
+	<NavLink href="/clients" icon="group" label="Clients" />
 	<NavLink href="/dates" icon="calendar_month" label="Dates" />
 	<NavLink href="/" icon="home" label="Overview" exact />
 	<NavLink href="/sales" icon="paid" label="Sales" />

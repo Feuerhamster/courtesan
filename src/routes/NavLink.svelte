@@ -6,8 +6,8 @@
 	export let icon = "";
 	export let label = "";
 
-	$: active = $page.url.pathname.startsWith($$props.href) ? "active" : "";
-	$: activeExact = $page.url.pathname === $$props.href ? "active" : "";
+	$: active = $page.url.pathname.startsWith(href) ? "active" : "";
+	$: activeExact = $page.url.pathname === href ? "active" : "";
 </script>
 
 <a {...$$props} {href} class={exact ? activeExact : active}>

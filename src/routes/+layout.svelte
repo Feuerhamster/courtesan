@@ -36,7 +36,7 @@
 	</main>
 {/key}
 
-{#if ["/", "/customers", "/dates", "/sales", "/expenses"].includes($page.url.pathname)}
+{#if ["/", "/clients", "/dates", "/sales", "/expenses"].includes($page.url.pathname)}
 	<BottomNavigation />
 {/if}
 

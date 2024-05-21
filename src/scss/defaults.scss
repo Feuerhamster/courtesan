@@ -1,11 +1,11 @@
 @use "sass:color";
 
-$color-bg: #1f1f1f;
+$color-bg: #201f22;
 $color-txt: #fafafa;
 $color-txt-2: color.scale($color-txt, $lightness: -21%);
 
-$color-pr: #fb508e;
-$color-sec: #db2f75;
+$color-pr: #ff4a8e;
+$color-sec: #e02675;
 
 $color-bl: #4692ed;
 $color-rd: #f15b89;
@@ -13,7 +13,7 @@ $color-or: #c97f39;
 $color-yl: #e0cf41;
 
 $color-bl-bg: color.change($color-bl, $blue: 255, $alpha: 0.06);
-$color-pr-bg: color.change($color-pr, $green: 255, $alpha: 0.06);
+$color-pr-bg: color.change($color-pr, $red: 255, $alpha: 0.06);
 $color-rd-bg: color.change($color-rd, $red: 255, $alpha: 0.06);
 $color-or-bg: color.change($color-or, $red: 255, $alpha: 0.06);
 
@@ -25,7 +25,5 @@ $color-edge-2: rgba(114, 118, 137, 0.8);
 $color-bg-2: color.scale($color-bg, $lightness: 7%);
 // $color-bg-3: color.scale($color-bg, $lightness: 9%);
 
-$shadow:
-	0 0 4px 1px rgba(0, 0, 0, 0.1),
-	0 1px 2px rgba(0, 0, 0, 0.07);
+$shadow: 0 0 4px 1px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.07);
 // $shadow-2: 0 0 8px 2px rgba(0,0,0,0.15), 0 2px 6px rgba(0,0,0,0.1);
