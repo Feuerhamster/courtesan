@@ -1,0 +1,39 @@
+@mixin input-field {
+	background: none;
+	outline: none;
+	border: 2px solid $color-edge;
+	padding: 12px 10px;
+	border-radius: 6px;
+	color: $color-txt;
+	flex: 1;
+	transition: 0.1s border;
+	font-size: 1em;
+	min-width: auto;
+	width: 100%;
+}
+
+@mixin input-label {
+	position: absolute;
+	left: 10px;
+	top: 14px;
+	color: $color-txt-2;
+	font-size: 1em;
+	transition: 0.1s all;
+	padding: 0px 5px;
+	pointer-events: none;
+	opacity: 0.8;
+}
+
+@mixin input-label-focused {
+	top: -8px;
+	font-size: 0.8em;
+	background-color: $color-bg;
+	opacity: 1;
+}
+
+@mixin page-content {
+	display: flex;
+	flex-direction: column;
+	gap: 18px;
+	padding: 0px 8px 8px 8px;
+}

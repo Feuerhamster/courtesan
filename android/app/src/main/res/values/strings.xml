@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Courtesan</string>
+    <string name="title_activity_main">Courtesan</string>
+    <string name="package_name">dev.lmke.courtesan</string>
+    <string name="custom_url_scheme">dev.lmke.courtesan</string>
+</resources>
